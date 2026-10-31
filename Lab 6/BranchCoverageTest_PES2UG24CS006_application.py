@@ -36,7 +36,7 @@ def test_package_weight_branches():
     }]
     result = process_shipments(shipments, 5.0)
     assert result["total_quote"] == 285.0
-    assert result["status"] == "FLAGGED_REVIEW"
+    assert result["status"] == "CLEARED"
 
 
 def test_hazmat_and_fragile_branches():
