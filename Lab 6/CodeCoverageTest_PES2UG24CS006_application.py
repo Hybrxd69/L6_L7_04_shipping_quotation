@@ -1,4 +1,3 @@
-%%writefile CodeCoverageTest_PES2UG24CS006_application.py
 import pytest
 from shipping_quote import process_shipments, monitor_container_pressures
 
